@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Data Science Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .hero {
+            background-color: #ecf0f1;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .job {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .job h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        .company {
+            color: #3498db;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .job ul {
+            padding-left: 1.5rem;
+        }
+        .job li {
+            margin-bottom: 0.5rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .skill-card {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+        .skill-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Nicholas Fintak</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Professional Lawn & Pest Control Technician | Customer Service Specialist | Operations Expert</p>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>Professional Experience</h2>
+        
+        <div class="job">
+            <h3>Lawn & Pest Control Technician</h3>
+            <p class="company">MRW Lawns, Inc. - La Plata, MD</p>
+            <p class="date">February 2023 to Present</p>
+            <ul>
+                <li>Operate company truck and specialized equipment for chemical applications</li>
+                <li>Perform pest control services for moles, fleas, ticks, and mosquitoes</li>
+                <li>Conduct tree and shrub care to protect from disease and insect damage</li>
+                <li>Maintain detailed documentation of property conditions and applications</li>
+                <li>Provide excellent customer service and professional recommendations</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Delivery Driver</h3>
+            <p class="company">DoorDash - Brandywine, MD</p>
+            <p class="date">January 2019 to Present</p>
+            <ul>
+                <li>Execute efficient delivery services for restaurants, grocery, and retail stores</li>
+                <li>Demonstrated adaptability by successfully transitioning service areas</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Package Handler</h3>
+            <p class="company">UPS - Newark, DE</p>
+            <p class="date">July 2021 to November 2022</p>
+            <ul>
+                <li>Performed accurate and efficient package scanning and loading operations</li>
+                <li>Maintained high standards of accuracy in fast-paced environment</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Previous Experience</h3>
+            <ul>
+                <li>Shift Manager at DP Dough (2020-2021)</li>
+                <li>Sales Associate at Bob's Discount Furniture (2021)</li>
+                <li>Wellness Ambassador at Rite Aid Pharmacy (2018-2019)</li>
+                <li>Warehouse Associate/Delivery Driver at Blue Hen Services (2014-2018)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2>Professional Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <p>Equipment Operation, Chemical Applications, Safety Protocols</p>
+            </div>
+            <div class="skill-card">
+                <h3>Customer Service</h3>
+                <p>Communication, Problem Resolution, Professional Consultation</p>
+            </div>
+            <div class="skill-card">
+                <h3>Operations</h3>
+                <p>Documentation, Data Entry, Quality Control</p>
+            </div>
+            <div class="skill-card">
+                <h3>Leadership</h3>
+                <p>Team Management, Training, Process Improvement</p>
+            </div>
+            <div class="skill-card">
+                <h3>Logistics</h3>
+                <p>Route Planning, Time Management, Delivery Operations</p>
+            </div>
+            <div class="skill-card">
+                <h3>Safety & Compliance</h3>
+                <p>Chemical Handling, Vehicle Safety, Regulatory Compliance</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
